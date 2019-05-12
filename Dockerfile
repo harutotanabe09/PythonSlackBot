@@ -12,5 +12,7 @@ COPY run.py .
 
 COPY slackbot_settings.py .
 
+COPY custom.py ./plugins/
+
 CMD [ "python", "run.py" ]
 
